@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Kaggle API credentials 
+kaggle.json
+
+# Dataset files (downloaded from Kaggle)
+data/
+*.zip
+
+# Training outputs / models
+runs/
+*.h5
+*.pt
+*.ckpt
+
+# Colab generated files
+.content/
